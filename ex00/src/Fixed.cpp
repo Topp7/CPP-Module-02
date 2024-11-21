@@ -6,11 +6,13 @@
 /*   By: stopp <stopp@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 13:56:04 by stopp             #+#    #+#             */
-/*   Updated: 2024/11/12 17:22:10 by stopp            ###   ########.fr       */
+/*   Updated: 2024/11/21 15:04:08 by stopp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/Fixed.hpp"
+
+const int Fixed::_fractBits = 8;
 
 Fixed::Fixed() : _value(0)
 {

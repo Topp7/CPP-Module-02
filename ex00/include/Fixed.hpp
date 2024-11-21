@@ -6,15 +6,13 @@
 /*   By: stopp <stopp@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 13:48:35 by stopp             #+#    #+#             */
-/*   Updated: 2024/11/12 16:54:43 by stopp            ###   ########.fr       */
+/*   Updated: 2024/11/21 14:28:07 by stopp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
 #include <iostream>
-
-const int Fixed::_fractBits = 8;
 
 class	Fixed
 {
