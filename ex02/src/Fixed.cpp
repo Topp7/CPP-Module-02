@@ -6,7 +6,7 @@
 /*   By: stopp <stopp@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/12 13:56:04 by stopp             #+#    #+#             */
-/*   Updated: 2024/11/19 16:57:38 by stopp            ###   ########.fr       */
+/*   Updated: 2024/11/20 16:18:39 by stopp            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -167,7 +167,7 @@ Fixed	&Fixed::max (Fixed &one, Fixed &two)
 	// else
 	// 	return two;
 }
-const Fixed &Fixed::min(const Fixed &one, const Fixed &two)
+const Fixed &Fixed::min (const Fixed &one, const Fixed &two)
 {
 	return one < two ? one : two;
 }
